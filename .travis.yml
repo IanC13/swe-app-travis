@@ -4,7 +4,15 @@ python:
 - '3.12'
 install:
 - pip install -r requirements.txt
-script: echo "Testing"
+script:
+  - echo "Running Script"
+  - black . --check
+  - flake8 .
+  - coverage run manage.py test
+  
+after_success:
+  - coverage report
+
 deploy:
   provider: elasticbeanstalk
   access_key_id:
