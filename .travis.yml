@@ -20,4 +20,3 @@ deploy:
   on:
     repo: IanC13/swe-app-travis
     branch: main
-  skip_cleanup: 'true'
