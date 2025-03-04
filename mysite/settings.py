@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-u2u#q+*ztkj6mx9b!2ocf_f)t*d+!4@^4mf&6^nzi+3#dy46)k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-hello-world-env.eba-bbxkjmjw.us-west-2.elasticbeanstalk.com', "*", "test-env.eba-twmd4wdz.us-west-2.elasticbeanstalk.com"]
+ALLOWED_HOSTS = ['polls-travis-env.eba-rgkjcquq.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
