@@ -6,4 +6,4 @@
 
 [Polls deployment link](http://polls-travis-env.eba-rgkjcquq.us-west-2.elasticbeanstalk.com/polls/)
 
-[TravisCI Dashboard](https://app.travis-ci.com/github/IanC13/swe-app-travis/builds/274462913?serverType=git)
+[TravisCI Dashboard](https://app.travis-ci.com/github/IanC13/swe-app-travis/branches?serverType=git)
